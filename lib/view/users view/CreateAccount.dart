@@ -70,7 +70,7 @@ class _CreateAccountState extends State<CreateAccount> {
                   width: 300,
                   child: TextField(
                     controller: birthdayController,
-                    decoration: const InputDecoration(hintText: '誕生日'),
+                    decoration: const InputDecoration(hintText: '誕生日 （6月1日　→　0601）'),
                 )
 
                 ),
