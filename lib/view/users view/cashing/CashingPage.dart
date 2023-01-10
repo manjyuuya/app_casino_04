@@ -1,3 +1,4 @@
+import 'package:app_casino_03/view/ownersView/ownersScreen.dart';
 import 'package:app_casino_03/view/users%20view/CreateAccount.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
@@ -35,7 +36,6 @@ class _CashingPageState extends State<CashingPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: Drawer(
-
         child: TextButton(
             onPressed: () {
               // ここにボタンを押した時に呼ばれるコードを書く
@@ -46,7 +46,6 @@ class _CashingPageState extends State<CashingPage> {
               );
             },
             child: const Text('owners')),
-
       ),
       backgroundColor: Colors.grey.withOpacity(0.2),
       appBar: AppBar(
