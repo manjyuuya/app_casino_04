@@ -54,6 +54,7 @@ class DefaultFirebaseOptions {
     appId: '1:804886032528:android:2839b66f7067918a1c6815',
     messagingSenderId: '804886032528',
     projectId: 'app-casino-03',
+    databaseURL: 'https://app-casino-03-default-rtdb.firebaseio.com',
     storageBucket: 'app-casino-03.appspot.com',
   );
 
@@ -62,6 +63,7 @@ class DefaultFirebaseOptions {
     appId: '1:804886032528:ios:747072f9ffffd3081c6815',
     messagingSenderId: '804886032528',
     projectId: 'app-casino-03',
+    databaseURL: 'https://app-casino-03-default-rtdb.firebaseio.com',
     storageBucket: 'app-casino-03.appspot.com',
     iosClientId: '804886032528-b1aebgdiplo1fje3l9btsptk1n2evncm.apps.googleusercontent.com',
     iosBundleId: 'com.example.appCasino03',
